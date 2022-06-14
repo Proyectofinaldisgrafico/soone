@@ -1,0 +1,1839 @@
+2022-06-10T00:31:00+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 60d4651dd30b4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:31:03+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 212078dd53991
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T00:31:04+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Return to your shop.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 8ad4d2c9727e6
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T00:40:46+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 80624dbbcf918
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:40:59+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 387c3b20eecb7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:41:10+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: bc736548e2c5c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:44:36+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 467d5a94402d7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:45:38+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 16185bf370b08
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:45:58+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 79534ff627cce
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:47:33+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 17e0582c4ec55
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:47:37+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 543c6be804887
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:49:40+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 67a9ce1605bd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:49:48+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 806d28090ffe9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:52:05+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 789a2c057ff5c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:52:11+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 98f7e826bbc35
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:54:56+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7d1e54c503ac2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T00:58:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4f2337b1ab44a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:02:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 817e626f2b954
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:05+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: bc567dfc13b4f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:21+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 9300396d5c68f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:25+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ca14cb1050dfa
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:29+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f72acf5c5aa16
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:34+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 3eaae2f3b9193
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:40+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: aaf89beabdd02
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:03:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a65218bffa166
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:04:04+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f9546a577f5f2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:04:07+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8f0b67c8267b2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:04:50+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e19d7a5e90592
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:04:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e83e051a1c678
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:04:57+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b7bc6db8a76e3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:01+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: fedf6fe15cc19
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:12+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 103a730f79310
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:16+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4165fa1c24164
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:23+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: d9955c6f907ed
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:25+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b8df4242e44f0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:43+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 101b4dbe5646a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:05:47+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b0f8b7e66e8af
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:06:28+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 6132b06172d9a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:06:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 489a4c1fc0213
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:07:04+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4cf16a27205dd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:07:07+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 41686f566c859
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:07:22+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ca9abe8019f9c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:07:27+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: fffba5d4e0d5a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:07:34+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 454c4e750321
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:08:42+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: d5c77963f6cef
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:08:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 00286f28147a6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:09:06+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 36aa77cb82b2a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:09:12+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ac3a13167272c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:09:18+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 1302272b2e06c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:11:26+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f0559440e6e49
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:20:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8f9b65fd4976d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:25:19+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 49e130b9d8973
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:29:53+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 54c641942ef33
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:30:18+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 67b17341af41f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:30:47+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 1bb404057dc70
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:36:36+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8c31f35b8c907
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:36:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 195e5435950ad
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:38:05+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 21765e210898e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:38:08+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a440db7f2a334
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:38:44+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: aaa45db44445d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:39:18+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4eece5a385b70
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:39:32+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a395c3b355dc9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:39:38+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: eedaa54b7d173
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:04+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 97e1d44d0b7a8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:14+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 3c867c476e96
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:23+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 809521c7f228b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:32+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 650ea931b3d93
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:38+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7c5c60be3c1fb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:42:58+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e6a2bf344e433
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:43:17+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ca2ce955b61cb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:43:29+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 5fad3bf7cecd3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:43:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: de991eaa070f2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:43:46+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7a9fc80956d6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:43:49+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 88b9f4e70b9b4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:44:17+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a003d0b376e85
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:44:23+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8498b7e55f2ed
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:44:38+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 169701a81b46c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:54:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 82e8be27a8171
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:54:36+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b070dbce673b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:54:48+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 456f67b8db29a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:55:46+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: bf37a96670129
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:55:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4b61a70419f52
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:55:56+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8c7e7da0e411d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:57:49+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f1f7b62ba3e6a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:58:13+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b70d593e28b10
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:58:19+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: c0691556ecce
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T01:58:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 60cb8d3302f0e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:00:51+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: c419932340adf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:01:02+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 271da117a9448
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:01:36+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: c6282617dc8c8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:02:26+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 2bc74f0010f0c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:05:23+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f32e815e76641
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:07:11+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8441030375a5f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:09:04+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8639eaee6aef8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:11:21+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f931a802c546
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:11:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 88a6cf798db88
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:13:15+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a17a5bba039ab
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:14:20+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ee21e6a7e09a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:16:19+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a2dac4df24284
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:16:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8ef1fd1aeb758
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:16:45+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 1295e8c7c6ba8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:16:49+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 3a033351db2e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:19:04+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: cb41ab0cd5ff
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:20:34+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a90e24f3f3a2c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:20:56+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7c31f93597edc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:21:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 64d077eab30b2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:26:47+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 1b19ca8e1d420
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:00+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7ee097ab83ce5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:12+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a619aaa3422fa
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:17+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 5dc914c1f9374
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:22+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f4894e4140df0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:24+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 57c61b74bc808
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: fdf72db77b582
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:37+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b1fb105681ada
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:27:41+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 3693a76d8f6a6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:28:00+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 115f2058328d1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:28:23+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 758d35eab481d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:28:36+00:00 DEBUG POST https://api.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"MXN","value":"599.00","breakdown":{"item_total":{"currency_code":"MXN","value":"500.00"},"shipping":{"currency_code":"MXN","value":"99.00"},"tax_total":{"currency_code":"MXN","value":"0.00"}}},"description":"","items":[{"name":"Playera Carnaval","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"14","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera Horror","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"12","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}}],"payee":{"merchant_id":"DR4VWVGF4TYPQ"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"NO_SHIPPING","landing_page":"LOGIN","locale":"es-MX","brand_name":"Soone","return_url":"http:\/\/localhost\/wordpress\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/wordpress\/finalizar-compra\/"},"payer":{"name":{"given_name":"","surname":""},"email_address":"ucoor1234@gmail.com","address":{"country_code":"MX","admin_area_1":"DF"}},"payment_method":{"payee_preferred":"UNRESTRICTED","payer_selected":"PAYPAL"}}
+Response Debug ID: c26314d1cd0a7
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T02:28:37+00:00 DEBUG POST https://api.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"MXN","value":"599.00","breakdown":{"item_total":{"currency_code":"MXN","value":"500.00"},"shipping":{"currency_code":"MXN","value":"99.00"},"tax_total":{"currency_code":"MXN","value":"0.00"}}},"description":"","items":[{"name":"Playera Carnaval","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"14","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera Horror","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"12","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}}],"payee":{"merchant_id":"DR4VWVGF4TYPQ"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"NO_SHIPPING","landing_page":"LOGIN","locale":"es-MX","brand_name":"Soone","return_url":"http:\/\/localhost\/wordpress\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/wordpress\/finalizar-compra\/"},"payer":{"name":{"given_name":"","surname":""},"email_address":"ucoor1234@gmail.com","address":{"country_code":"MX","admin_area_1":"DF"}},"payment_method":{"payee_preferred":"UNRESTRICTED","payer_selected":"PAYPAL"}}
+Response Debug ID: 24deb3d250a63
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T02:28:52+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e3151093cf8b4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:28:57+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: aa93885ebedcf
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:29:47+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 257ad0e9abcfc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:29:49+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: d6dee6498783
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:31:13+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: b187ee0a2c1bc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:31:48+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 9b5bca7379d2f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:31:56+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 627eeb90dff7b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:32:09+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: f2f2e12935c25
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:32:11+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ed2ef8971f5a7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:32:31+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 97209c140cc8c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:32:47+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: edf33d526bbe3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:32:58+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 36d2ba9ccbd1f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:33:20+00:00 DEBUG POST https://api.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"MXN","value":"879.00","breakdown":{"item_total":{"currency_code":"MXN","value":"780.00"},"shipping":{"currency_code":"MXN","value":"99.00"},"tax_total":{"currency_code":"MXN","value":"0.00"}}},"description":"","items":[{"name":"Playera Horror","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"12","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera M\u00e9xico","unit_amount":{"currency_code":"MXN","value":"280.00"},"quantity":1,"description":"","sku":"10","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera Prehispanica","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}}],"payee":{"merchant_id":"DR4VWVGF4TYPQ"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"NO_SHIPPING","landing_page":"LOGIN","locale":"es-MX","brand_name":"Soone","return_url":"http:\/\/localhost\/wordpress\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/wordpress\/finalizar-compra\/"},"payer":{"name":{"given_name":"","surname":""},"email_address":"ucoor1234@gmail.com","address":{"country_code":"MX","admin_area_1":"DF"}},"payment_method":{"payee_preferred":"UNRESTRICTED","payer_selected":"PAYPAL"}}
+Response Debug ID: 221ce31850743
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T02:33:21+00:00 DEBUG POST https://api.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"MXN","value":"879.00","breakdown":{"item_total":{"currency_code":"MXN","value":"780.00"},"shipping":{"currency_code":"MXN","value":"99.00"},"tax_total":{"currency_code":"MXN","value":"0.00"}}},"description":"","items":[{"name":"Playera Horror","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"12","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera M\u00e9xico","unit_amount":{"currency_code":"MXN","value":"280.00"},"quantity":1,"description":"","sku":"10","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}},{"name":"Playera Prehispanica","unit_amount":{"currency_code":"MXN","value":"250.00"},"quantity":1,"description":"","sku":"","category":"PHYSICAL_GOODS","tax":{"currency_code":"MXN","value":"0.00"}}],"payee":{"merchant_id":"DR4VWVGF4TYPQ"}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"NO_SHIPPING","landing_page":"LOGIN","locale":"es-MX","brand_name":"Soone","return_url":"http:\/\/localhost\/wordpress\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/wordpress\/finalizar-compra\/"},"payer":{"name":{"given_name":"","surname":""},"email_address":"ucoor1234@gmail.com","address":{"country_code":"MX","admin_area_1":"DF"}},"payment_method":{"payee_preferred":"UNRESTRICTED","payer_selected":"PAYPAL"}}
+Response Debug ID: 508da2d97ab80
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-10T02:34:05+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 71e0240c1bbdb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:34:22+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e9bb00297e95e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:34:42+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: c770d95ac6bf4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:35:17+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 265c73bcc0635
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:35:32+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: fab39244c4ace
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:42:09+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8fac363bf8b6d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:43:17+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e96fd7482c180
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:43:21+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4b05080f299db
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:43:58+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 72c02c9e78f1d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:44:03+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 178e320a329fe
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:44:06+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7af5eb553edde
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:44:08+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 1aa7ffa547ea
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:44:14+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-9eb2fdffa2a26"}
+Response Debug ID: b008299cdf2b2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:44:45+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-981f6c10b2a26"}
+Response Debug ID: 60d74d703ebfa
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:45:11+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-2"}
+Response Debug ID: b66ff5b10dd9e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:45:27+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-fd0ad640b2a26"}
+Response Debug ID: 9b73fa2428b3f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:46:37+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e1375502ae208
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:46:41+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7f113d2d858cc
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:47:32+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 5ee8528902360
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:47:50+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a034caf910e20
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:48:13+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 76d14853768fb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:49:46+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: def3547d4f6c2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:49:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 223b96ac3b1b1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:02+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 85bff0e68f05a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:06+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 627b8e9f6239c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:28+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 4d4e724e12a45
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: e174d4cf32946
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:35+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 45ff0c767aff7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:41+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: ee2e0c3412eb6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:50:45+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 86f77a8c877c9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:52:12+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 92986fd87f3a0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:53:25+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 5b84e1ddc11f7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:53:51+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 942a59d3297e1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:53:57+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 7bbd8b64033e6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:54:01+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 3d024988dcb2e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:54:05+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 473a4a908d31d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:54:14+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 254af18c9ef08
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:54:49+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 8e5499d32e949
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:55:55+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: 91878e6a12bd9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:15+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-ebba3fc2b2a26"}
+Response Debug ID: 4f9ae469d9cbb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:20+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-eaf973d2b2a26"}
+Response Debug ID: c2fd02b46f54
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:24+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-a58ba7d2b2a26"}
+Response Debug ID: 41220aaf0ebbe
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:28+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-95034cd2b2a26"}
+Response Debug ID: 676f493d3580c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:30+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-97796ed2b2a26"}
+Response Debug ID: a9fb4bb183626
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:33+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1181e0e2b2a26"}
+Response Debug ID: 9a339516d59cd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:36+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-cb6373e2b2a26"}
+Response Debug ID: a5d546ae292fb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:39+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-83d9e6e2b2a26"}
+Response Debug ID: 7c5effb0fc4c7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:56:48+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-31a59fe2b2a26"}
+Response Debug ID: b11b24708caf5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:57:27+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-99789613b2a26"}
+Response Debug ID: bbebbe6ce01eb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T02:58:21+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-99789613b2a26"}
+Response Debug ID: 94e1930915cc2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-10T03:01:41+00:00 DEBUG POST https://api.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"bbfabc-1"}
+Response Debug ID: a326d47e13ea9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
